@@ -54,3 +54,16 @@ The app will check for new, unread emails every 60 seconds. When a new email is 
 
 Contributing
 Contributions are welcome! Please create an issue or submit a pull request for any improvements or bug fixes.
+
+
+Modified Code
+
+   First, create a .env file to store your sensitive information:
+
+      TWILIO_ACCOUNT_SID=your_twilio_account_sid
+      TWILIO_AUTH_TOKEN=your_twilio_auth_token
+      WHATSAPP_FROM=whatsapp:+14093163534
+      WHATSAPP_TO=whatsapp:+212617264975
+      CRED_PATH=path_to_your_cred.json
+      TOKEN_PATH=token.json
+
